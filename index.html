@@ -1,1 +1,28 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head><style>body {font-family: Arial, sans-serif;background: #111010; /* Background color */ }.container { display: flex;  justify-content: center;  padding: 20px;  margin-top: 70px; }.label { position: absolute;bottom: 10px;left: 50%;transform: translateX(-50%);background: rgba(0, 0, 0, 0.6);color: white;padding: 5px 10px; border-radius: 5px; }#searchbar {position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%); width: 600px; height: 56px;border: transparent;background-color: #222222; }#ua {background-color: #222222;color: #ffffff; font-size: 1.5rem;position: relative; top: 50%; left: 16px;border: none;outline: none; transform: translate(0, -50%); width: 526px; height: 50px; font-weight: bold; color: #ffffff; caret-color: #ffffff; }#ua::placeholder {color: #ffffff;opacity: 0.5;}#uvf{width: 100%;height: calc(100% - 50px);border: none;}</style></head><body>
+    
+    <form id="uf" autocomplete="off" autocapitalize="off">
+        <input id="us" value="https://duckduckgo.com/?q=%s" type="hidden">
+        <div id="searchbar">
+           <i class="fas fa-search" id="search-icon"></i>
+           <input id="ua" type="text" placeholder="Search or type a URL" class="form__input">
+        </div>
+    </form>
+    <div class="desc left-margin">
+        <p id="ue"></p>
+        <pre id="uc"></pre>
+    </div>
+<script>
+        document.querySelector('.toggle').addEventListener('click', function() {
+            document.querySelector('.navbar').classList.toggle('active');
+        });
+    </script>
+    <!-- Scripts  -->
+    <script src="/proxy/uv.bundle.js" charset="UTF-8" defer></script>
+    <script src="/proxy/uv/uv.config.js" charset="UTF-8" defer></script>
+    <script src="/proxy/worker.js" charset="UTF-8" defer></script>
+    <script src="/proxy/search.js" charset="UTF-8" defer></script>
+    <script src="/proxy/index.js" charset="UTF-8" defer></script>
+    <!-- Scripts  -->
+</body></html>
