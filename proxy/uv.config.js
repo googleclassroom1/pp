@@ -1,10 +1,10 @@
 self.__uv$config = {
-    prefix: '/app/login/',
+    prefix: '/proxy/embed/',
     bare: "https://sysadmin.us.kg/",
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/app/uv/uv.handler.js',
-    bundle: '/app/uv/uv.bundle.js',
-    config: '/app/uv/uv.config.js',
-    sw: '/app/uv/uv.sw.js',
+    handler: '/proxy/uv.handler.js',
+    bundle: '/proxy/uv.bundle.js',
+    config: '/proxy/uv.config.js',
+    sw: '/proxy/uv.sw.js',
 };
